@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ANANTLEKH - हर पुस्तक एक नया अनुभव। हिंदी और अन्य भाषाओं की डिजिटल पुस्तकों का ऑनलाइन स्टोर।">
+  <meta name="theme-color" content="#17130f">
+  <title>ANANTLEKH | हर पुस्तक एक नया अनुभव</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Georgia,"Noto Serif Devanagari",serif;background:#faf8f4;color:#29231c}
+    a{text-decoration:none;color:inherit}
+    header{background:#17130f;color:#fff;padding:18px 7%;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:15px}
+    .brand{font-size:27px;letter-spacing:2px;color:#e9c783}
+    .brand small{display:block;font-size:12px;letter-spacing:3px;color:#fff;margin-top:4px}
+    nav{display:flex;gap:25px;font-family:Arial,sans-serif;font-size:14px}
+    nav a:hover{color:#e9c783}
+    .hero{background:linear-gradient(120deg,#24180f,#51351e);color:white;text-align:center;padding:90px 20px}
+    .hero .sub{color:#e9c783;letter-spacing:4px;font-size:13px;margin-bottom:22px}
+    .hero h1{font-size:clamp(38px,7vw,65px);font-weight:normal;color:#f0d49c}
+    .hero p{font-size:19px;margin:18px 0 30px;color:#eee1d0}
+    .btn{display:inline-block;background:#d6ad67;color:#21170e;padding:13px 27px;border-radius:3px;font-family:Arial,sans-serif;font-weight:bold}
+    .btn:hover{background:#f0d49c}
+    .section{padding:65px 7%;text-align:center}
+    .section h2{font-size:32px;font-weight:normal;margin-bottom:12px}
+    .section .intro{color:#756b60;margin-bottom:35px}
+    .books{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px;text-align:left}
+    .book{background:white;border:1px solid #eee4d5;padding:22px;border-radius:5px;transition:.2s}
+    .book:hover{transform:translateY(-4px);box-shadow:0 8px 24px #00000010}
+    .cover{height:190px;background:linear-gradient(145deg,#4a2d1b,#a77940);display:flex;align-items:center;justify-content:center;color:#f7e4bc;font-size:26px;text-align:center;padding:15px;margin-bottom:20px}
+    .book h3{font-size:20px;margin-bottom:10px}
+    .book p{font-family:Arial,sans-serif;color:#766d62;font-size:14px;line-height:1.6;margin-bottom:15px}
+    .price{font-family:Arial,sans-serif;font-weight:bold;color:#8a5c25;font-size:18px}
+    .coming{display:inline-block;margin-top:10px;color:#8b765b;font-size:12px}
+    .about{background:#f0e9dc}
+    .about p{max-width:700px;margin:15px auto;line-height:1.9;color:#655b50}
+    footer{background:#17130f;color:#d9c9ad;text-align:center;padding:35px 15px;font-family:Arial,sans-serif;font-size:13px;line-height:2}
+    footer strong{color:#e9c783}
+    @media(max-width:600px){
+      header{justify-content:center;text-align:center}
+      nav{justify-content:center;gap:15px;flex-wrap:wrap}
+      .hero{padding:65px 18px}
+      .section{padding:48px 6%}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#" class="brand">अनंत लेख<small>ANANTLEKH</small></a>
+    <nav>
+      <a href="#home">होम</a>
+      <a href="#books">पुस्तकें</a>
+      <a href="#about">हमारे बारे में</a>
+      <a href="#contact">संपर्क</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="sub">WELCOME TO ANANTLEKH</div>
+    <h1>अनंत लेख</h1>
+    <p>हर पुस्तक एक नया अनुभव।</p>
+    <a href="#books" class="btn">पुस्तकें देखें</a>
+  </section>
+
+  <section class="section" id="books">
+    <h2>हमारी डिजिटल पुस्तकें</h2>
+    <p class="intro">ज्ञान, साहित्य और उपयोगी जानकारियाँ — अब आपकी स्क्रीन पर।</p>
+
+    <div class="books">
+      <article class="book">
+        <div class="cover">ANANTLEKH<br>Digital Books</div>
+        <h3>जल्द आ रहा है</h3>
+        <p>हमारी पहली डिजिटल पुस्तकों का संग्रह तैयार किया जा रहा है। जल्द ही यहाँ उपलब्ध होगा।</p>
+        <div class="price">जल्द उपलब्ध</div>
+        <span class="coming">नई पुस्तकें शीघ्र आ रही हैं</span>
+      </article>
+
+      <article class="book">
+        <div class="cover">ज्ञान • साहित्य<br>अनुभव</div>
+        <h3>आने वाली पुस्तकें</h3>
+        <p>विभिन्न विषयों पर डिजिटल पुस्तकों का नया संग्रह।</p>
+        <div class="price">जल्द उपलब्ध</div>
+        <span class="coming">अपडेट के लिए जुड़े रहें</span>
+      </article>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <h2>ANANTLEKH के बारे में</h2>
+    <p>ANANTLEKH एक डिजिटल बुकस्टोर है, जहाँ पुस्तकों के माध्यम से ज्ञान, विचार और नए अनुभवों की दुनिया तक पहुँचने का प्रयास है।</p>
+    <p>हमारा उद्देश्य है — अच्छी पुस्तकों को पाठकों तक सरलता से पहुँचाना।</p>
+  </section>
+
+  <footer id="contact">
+    <strong>ANANTLEKH</strong><br>
+    हर पुस्तक एक नया अनुभव।<br>
+    संपर्क: हमारी संपर्क जानकारी जल्द उपलब्ध होगी।<br>
+    © 2026 ANANTLEKH. All Rights Reserved.
+  </footer>
+</body>
+</html>

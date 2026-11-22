@@ -7,5 +7,13 @@
     "binding": "ASSETS",
     "run_worker_first": ["/api/*"],
     "not_found_handling": "404-page"
-  }
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "anantlekh-db",
+      "database_id": "6152f953-fe8a-4600-9b15-63a500ce1df8",
+      "migrations_dir": "migrations"
+    }
+  ]
 }
